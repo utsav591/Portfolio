@@ -13,12 +13,12 @@ body{
     color: black;
 }
 #banner{
-    background-image: url(images/pexels-abdullah-ghatasheh-1631677.jpg);
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(/daac885…/c157c/assets/svg/common-bg.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 600px;
-    color: whitesmoke;
+    color: black;
     padding-top: 200px;
     text-align: center;
 }
@@ -84,11 +84,21 @@ body{
 .contact-form{
     box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
     background: #fff;
-    padding: 4rem;
-    margin-top: 6rem;
-    max-width: 80rem;
-    text-align: right;
-    width: 60%;
+    padding:3rem;
+    max-width: 70rem;
+    width: 70%;
+    height: 629px;
     border-radius: 5px;
-    margin: 5rem auto 0 auto;
+    margin: 40px auto;
+    align-items: center;
+    font-size: 30px;
+}
+.bg-zig-zag{
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(/daac885…/c157c/assets/svg/common-bg.svg);
+    background-size: cover;
+    background-position: center;
+ }
+.form-control{
+    background-color: gainsboro;
+    font-size: 20px;
 }
