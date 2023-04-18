@@ -16,8 +16,13 @@
     background-size: cover;
     height: 600px;
     color: black;
-    padding-top: 200px;
     text-align: center;
+}
+.banner-padding{
+    padding-top: 400px;
+}
+.banner-image{
+    padding-top: 200px;
 }
 .fa-brands{
     color: white;
@@ -62,6 +67,10 @@
     font-size: 30px;
     font-family:fantasy;
     border: 1px solid black;
+}
+.image2{
+    height:100px
+    
 }
 .btn-warning{
     padding: 10px 30px;
@@ -167,10 +176,15 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 420px;
+        height: 500px;
         color: black;
-        padding-top: 100px;
         text-align: center;
+    }
+    .banner-padding{
+        padding-top: 150px;
+    }
+    .banner-image{
+        padding-top: 100px;
     }
     .banner-icon{
         display: grid;
