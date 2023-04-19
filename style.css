@@ -24,6 +24,9 @@
 .banner-image{
     padding-top: 100px;
 }
+.fa-solid{
+    color: white;
+}
 .fa-brands{
     color: white;
 }
@@ -198,6 +201,7 @@
         font-weight: 800;
         letter-spacing: 1px;
         margin-top: 10px;
+        padding-left: 30px;
         font-family: 'Oxygen', sans-serif;
     }
     .about-h1{
@@ -217,7 +221,7 @@
     .para{
         text-align: center;
     font-size: 15px;
-    padding: 15px 38px;
+    padding: 15px 13px 15px 50px;
     font-family: 'Roboto', sans-serif;
     }
     .image1{
