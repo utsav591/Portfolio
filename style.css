@@ -9,6 +9,13 @@
     text-decoration: solid;
     text-transform: uppercase;
     color: black;
+    
+ 
+}
+.nav-link:hover{
+    color: #ffc107;
+    opacity: 1;
+    transition: all 0.3s ease-out;
 }
 #banner{
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(/images/subtle-prism\ \(1\).svg);
@@ -43,6 +50,12 @@
     font-weight: 700;
     letter-spacing: 1px;
     font-family: sans-serif;
+    opacity: 1;
+}
+.h1-upper:hover{
+    color:#ffc107;
+    transition-delay:all 0.3;
+    transition: all 0.3s ease-out;
 }
 .about-h1{
     text-align: center;
@@ -73,8 +86,11 @@
     border: 1px solid black;
 }
 .image2{
-    height:100px
-    
+    height:100px;
+    transition:all 0.3s ease-in ;
+}
+.image2::shadow{
+    width:300px ;
 }
 .btn-warning{
     padding: 10px 30px;
@@ -143,7 +159,7 @@
     padding-left: 75px;
 }
 .footer-social{
-    padding-left: 210px;
+    padding-left: 200px;
     letter-spacing: 1px;
     
 }
