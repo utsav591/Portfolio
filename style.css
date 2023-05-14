@@ -121,6 +121,10 @@
     font-weight: 500;
     color: #666;
 }
+.skills:hover{
+    height: 80px;
+    transition:all 0.3s ease-out ; 
+}
 .project-pad{
     padding: 20px;
     text-align: center;
@@ -320,7 +324,7 @@
     }
     .card{
         height: 355px;
-        width: 300px;
+        width: 275px;
     }
     .footer{
         background-color: black;
